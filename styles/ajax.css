@@ -1,0 +1,45 @@
+﻿.personsLi {
+    padding: .3em;
+    list-style: none;
+    border: 1px solid #888;
+    margin-bottom: .5em;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.personsName {
+    margin-top: -40px;
+}
+
+li span {
+    display: block;
+    text-align: center;
+}
+
+.personsGroup {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.personEdit {
+    margin-top: -17px;
+    position: absolute;
+}
+
+
+.group1{
+    background-color: #0AF;
+}
+
+.group2 {
+    background-color: #f5e660;
+}
+
+.group3 {
+    background-color: #FAF;
+}

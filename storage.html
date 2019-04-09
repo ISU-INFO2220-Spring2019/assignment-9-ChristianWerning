@@ -1,0 +1,70 @@
+﻿<!-- - - - - - - - - - - - - - - - - - - - -
+Christian Werning
+March 4, 2019
+INFO 2220
+Jon Holmes
+Assignment 9 Part I
+Purpose: This page shows a login form to test storages.
+- - - - - - - - - - - - - - - - - - - - - - -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Christian Werning`s Assignment 9</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/storage.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="styles/ajax.css" media="screen" /> <!-- to use the css from last assignment -->
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/storage.js"></script>
+</head>
+<body>
+
+    <div id="loginform" class="centered">
+
+        <label for="userName" id="lblUserName">UserName</label>
+        <input id="userName" type="text" />
+        <label for="password" id="lblPassword">Password</label>
+        <input id="password" type="password" />
+        <input type="checkbox" id="rememberUser" /> Remember Me
+
+        <div class="loginbuttons">
+            <button id="forgetUser">Forget Me</button>
+            <button id="login">Login</button>
+        </div>
+
+    </div>
+
+    <div id="personalData" class="centered">
+        <fieldset id="fieldsetData">
+            <legend>Personnal Data</legend>
+            <label for="name">Name</label>
+            <input id="name" type="text" />
+            <label for="phone">Phone</label>
+            <input id="phone" type="text" />
+            <label for="age">Age</label>
+            <input id="age" type="text" />
+        </fieldset>
+        <fieldset id="fieldsetGroup">
+            <legend>Group</legend>
+            <input type="radio" checked class="radioGroup" data-value="1" id="group1" name="group" /> 1
+            <input type="radio" class="radioGroup" data-value="2" id="group2" name="group" /> 2
+            <input type="radio" class="radioGroup" data-value="3" id="group3" name="group" /> 3
+            <div class="personsGroup" id="selectedGroup">1</div>
+        </fieldset>
+    </div>
+
+    <div id="btnHandler" class="clearFloat centered">
+        <button id="addPerson">Add Person</button>
+        <button id="clearStorage">Clear Storage</button>
+    </div>
+
+    <a href="viewPage.html">View Storage</a>
+
+    <ul id="userList"></ul>
+
+
+    <a href="index.html">Back to index</a>
+</body>
+
+</html>

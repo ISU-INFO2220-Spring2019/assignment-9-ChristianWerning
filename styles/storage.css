@@ -1,0 +1,61 @@
+﻿.centered {
+    text-align: center;
+    width: 220px;
+    margin: auto;
+    padding: 0.5em;
+}
+
+#loginform {
+    
+    border: 2px solid #F80;
+    background-color: #FE8;
+    left: 5em;
+    border-radius: 0.5em;
+    display: block;
+}
+
+    #loginform input {
+        display: block;
+        margin: auto;
+        margin-bottom: 0.5em;
+    }
+
+#loginform input#rememberUser{
+    display: inline;
+}
+
+
+#personalData {
+    text-align: left;
+    width: 450px;
+    margin-bottom: 1em;
+}
+
+#personalData .personsGroup{
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+}
+
+#fieldsetGroup, #fieldsetData {
+    border: 2px solid #F80;
+    background-color: #4cff00;
+    width: 190px;
+    float: left;
+    height: 90px;
+}
+
+.clearFloat {
+    clear: left;
+}
+
+.radioGroup {
+    margin-top: 2em;
+}
+
+
+#personalData label{
+    display: inline-block;
+    width: 38px;
+    padding-bottom: 0.3em;
+}

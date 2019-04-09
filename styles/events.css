@@ -1,0 +1,47 @@
+﻿
+h1{
+    margin:0;
+}
+
+#secMouser{
+    border: 3px solid #888;
+    background-color: #EEE;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+p {
+    border: 2px solid #08F;
+    position: relative;
+    margin: 5px;
+    width: 60%;
+    left:0;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.pressed {
+    border: 2px solid #F80;
+    background-color: #FE8;
+    left: 5em;
+    border-radius: 0.5em;
+}
+
+h1.overHead{
+    color: #08F;
+    font-weight: normal;
+}
+
+#mouseCoords {
+    border: 1px solid #000;
+    position: absolute;
+    padding: 0.5em;
+    top: 0;
+    right: 0;
+}
+
+#btnSayHello{
+    margin-left: 40%;
+}

@@ -1,0 +1,39 @@
+﻿
+/*
+
+Christian Werning
+January 27, 2019
+INFO 2220
+Jon Holmes
+All Assignments
+Purpose: An addition to the standard stylesheet.
+
+*/
+a:hover {
+    color: #888;
+}
+
+td:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: cell;
+}
+
+
+span.special {
+    font-weight: 400;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+span.special:before {
+    content: open-quote;
+}
+
+span.special:after {
+    content: close-quote;
+}
+
+.success::before, .warning::before, .error::before {
+    content: "Message: ";
+}

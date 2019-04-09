@@ -1,0 +1,92 @@
+﻿
+/*
+
+Christian Werning
+January 27, 2019
+INFO 2220
+Jon Holmes
+All Assignments
+Purpose: Stylesheet for every assignment.
+
+*/
+
+@import url("styleAddition.css") screen;
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+p{
+    padding: 2ex;
+}
+
+/* Just for spans in cssTestPageBody */
+#cssTestPageBody span{
+    font-weight: 700;
+}
+
+/* Just for spans in a table which is in cssTestPageBody */
+#cssTestPageBody table span {
+    text-decoration: underline;
+}
+
+a{
+    color: #F80;
+}
+
+h1 {
+    font-size: 2em;
+    color: #F80;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #888;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+th {
+    background-color: #F80;
+    color: #FFF;
+}
+
+tr{
+    background-color: #EEE;
+    font-size: 0.9em;
+}
+
+tr.other {
+    background-color: #DDD;
+}
+
+
+/* For all three classes */
+.success, .warning, .error{
+    border: 1px solid #AAA;
+    font-weight: 700;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+.success{
+    color: #080;
+    background-color: #F0FFF0;
+    border-color: #0F0;
+}
+
+.warning {
+    color: #880;
+    background-color: #FFFFF0;
+    border-color: #880;
+}
+
+.error {
+    color: #800;
+    background-color: #FFF0F0;
+    border-color: #800;
+}
+

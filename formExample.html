@@ -1,0 +1,72 @@
+﻿<!-- - - - - - - - - - - - - - - - - - - - -
+Christian Werning
+January 16, 2019
+INFO 2220
+Jon Holmes
+Assignment 1 – Part III
+Purpose: This is my form.
+- - - - - - - - - - - - - - - - - - - - - - -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Christian Werning`s Form</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen" />
+</head>
+<body>
+
+
+    <!--Form without styles-->
+<form method="post" action="http://teaching.jdholmes.net/postvget/reader/index.php">
+    <input type="hidden" name="studentID" value="931161" />
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" />
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" />
+    <label for="secret">Secret Key:</label>
+    <input type="password" id="secret" name="secret" />
+    <label for="favColor">Favorite Color:</label>
+    <select id="favColor" name="favColor">
+        <option>Blue</option>
+        <option>Yellow</option>
+        <option selected>Red</option>
+        <option>Green</option>
+    </select>
+    <fieldset>
+        <legend>Day of the Week</legend>
+        <input type="radio" id="radioSunday" name="dayOfWeek" value="Sunday" />
+        <label for="radioSunday">Sunday</label>
+        <input type="radio" id="radioMonday" name="dayOfWeek" value="Monday" />
+        <label for="radioMonday">Monday</label>
+        <input type="radio" id="radioTuesday" name="dayOfWeek" value="Tuesday" />
+        <label for="radioTuesday">Tuesday</label>
+        <input type="radio" id="radioWednesday" name="dayOfWeek" value="Wednesday" />
+        <label for="radioWednesday">Wednesday</label>
+        <input type="radio" id="radioThursday" name="dayOfWeek" value="Thursday" />
+        <label for="radioThursday">Thursday</label>
+        <input type="radio" id="radioFriday" name="dayOfWeek" value="Friday" />
+        <label for="radioFriday">Friday</label>
+        <input type="radio" id="radioSaturday" name="dayOfWeek" value="Saturday" />
+        <label for="radioSaturday">Saturday</label>
+    </fieldset>
+    <fieldset>
+        <legend>Times</legend>
+        <input type="checkbox" id="timeOfDay11" name="timeOfDay11" value="11" />
+        <label for="timeOfDay11">11:00 AM</label>
+        <input type="checkbox" id="timeOfDay12" name="timeOfDay12" value="12" />
+        <label for="timeOfDay12">12:00 AM</label>
+        <input type="checkbox" id="timeOfDay13" name="timeOfDay13" value="13" />
+        <label for="timeOfDay13">1:00 PM</label>
+        <input type="checkbox" id="timeOfDay14" name="timeOfDay14" value="14" />
+        <label for="timeOfDay14">2:00 PM</label>
+        <input type="checkbox" id="timeOfDay15" name="timeOfDay15" value="15" />
+        <label for="timeOfDay15">3:00 PM</label>
+    </fieldset>
+    <label for="description">Description:</label>
+    <textarea id="description" name="description"></textarea>
+    <input type="submit" value="Send to Server" />
+</form>
+
+</body>
+</html>
